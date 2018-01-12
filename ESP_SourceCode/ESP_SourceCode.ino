@@ -1,3 +1,14 @@
+/******************************
+ *     Author: Omar Gamal     *
+ *   c.omargamal@gmail.com    *
+ *                            *
+ *     Hardware: ESP8266      *
+ *       Language: C++        *
+ *                            *
+ *         12/4/2017          *
+ *     ESP8266 Web Server     *
+ ******************************/
+
 // Serial.println sends a string followd by 2 '\n'
 
 // wifi module library
