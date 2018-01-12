@@ -1,3 +1,13 @@
+#/******************************
+# *     Author: Omar Gamal     *
+# *   c.omargamal@gmail.com    *
+# *                            *
+# *     Hardware: ESP8266      *
+# *                            *
+# *         12/4/2017          *
+# *     ESP8266 Web Server     *
+# ******************************/
+
 #!/usr/bin/env python
 ###########################################
 from PyQt4 import QtCore, QtGui
