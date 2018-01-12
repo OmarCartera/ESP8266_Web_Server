@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<style>
+body {background-color: #660066;}
+table, th, td { border: #330033;font-family:Times New Roman;}
+</style>
+
+<div align="top" style="width:1024;height:100;border:solid;border-width:0.00005;background:#ccc;">
+</div>
+</div>
+
+<head>
+
+<title>Task0</title>
+</head>
+
+
+  
+   <body>
+<div class="w3-container w3-orange">
+  <h1><center style="font-size:36px;color: white;font-family:Times New Roman" >The Sensors' Readings Versus time</center></h1>
+</div>
+
+
+
+
+
+
+   	
+<center><p>
+
+<img src="http://www.freeiconspng.com/uploads/purple-flower-png-purple-flower-by-mircia90-30.png" alt="W3Schools.com" style="width:104px;height:142px;">
+</p></center>
+
+
+   <center>   <table border = 1>
+     <tr>
+        <th style="font-size:26px;color: #ffe6ff;font-family:Times New Roman">Analog Value</th>
+        <th style="font-size:26px;color: #ffe6ff;font-family:Times New Roman">Digital Value</th>
+        <th style="font-size:26px;color: #ffe6ff;font-family:Times New Roman">Time</th>
+  </tr>
+         {% for result in results %}
+         
+            <tr>
+               <td style="font-size:16px;color: white;font-family:Times New Roman"> {{ result[0] }}</td>
+               <td style="font-size:16px;color: white;font-family:Times New Roman"> {{ result[1] }}</td>
+               <td style="font-size:16px;color: white;font-family:Times New Roman"> {{ result[2] }} </td>
+            </tr>
+
+            	  
+         {% endfor %}
+      </table></center>
+      
+   </body>
+</html>
