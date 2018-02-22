@@ -3,7 +3,7 @@
 # *   c.omargamal@gmail.com    *
 # *                            *
 # *     Hardware: ESP8266      *
-# *     Language:  Python      *
+# *   Language:  Python 2.7    *
 # *                            *
 # *         25/8/2017          *
 # *     ESP8266 Web Server     *
